@@ -1,0 +1,326 @@
+body{
+  text-align: center;
+  background-color: rgb(240, 240, 240);
+  margin: 0;
+  padding: 0;
+  font-family: 'Assistant', sans-serif;
+  color: #323232;
+}
+
+p{
+  font-size: 18px;
+}
+
+.img_top{
+  text-align: center;
+  width: 70%;
+  height: 300px;
+  background: linear-gradient(rgba(255, 200, 0, 0.45), rgba(255, 0, 0, 0.45)),url(images/miam_miam_miam_20180725/photos/201703/elephant.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
+  transition: .5s;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(20, 20, 20, 0.2);
+}
+
+.img_top:hover{
+  background-size: 105% auto;
+  transition: .5s;
+}
+
+.img_top i{
+  opacity: 0;
+  color: #ffffff;
+  font-size: 20px;
+  padding-top: 200px;
+  transition: .5s;
+}
+
+.img_top:hover i{
+  opacity: 1;
+  color: #ffffff;
+  font-size: 70px;
+  padding-top: 50px;
+  transition: .5s;
+}
+
+.photo_profile{
+  z-index: 10;
+  width: 10%;
+  border-radius: 50%;
+  position: relative;
+  bottom: 120px;
+  border: 4px solid #ffffff;
+}
+
+.bloc_profile{
+  position: relative;
+  bottom: 220px;
+  background-color: #ffffff;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  box-shadow: 5px 5px 15px rgba(20, 20, 20, 0.2);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.img_work{
+  position: relative;
+  bottom: 300px;
+  text-align: center;
+  width: 70%;
+  height: 200px;
+  background: linear-gradient(rgba(255, 200, 0, 0), rgba(255, 0, 0, 0)),url(images/miam_miam_miam_20180725/photos/201703/crow.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
+  transition: .5s;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(20, 20, 20, 0.2);
+}
+
+.title_first{
+  color: #ffffff;
+  text-align: left;
+  font-size: 120px;
+  padding-left: 20px;
+  padding-top: 60px;
+}
+
+.title_second{
+  color: #ffffff;
+  text-align: left;
+  font-size:40px;
+  padding-left: 10px;
+}
+
+.bloc_work{
+  position: relative;
+  bottom: 300px;
+  background-color: #ffffff;
+  width: 70%;
+  height: 1200px;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  box-shadow: 5px 5px 15px rgba(20, 20, 20, 0.2);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.img_work:hover{
+  background-size: 105% auto;
+  transition: .5s;
+}
+
+.imgs_work_elephant{
+  background-image: url(images/miam_miam_miam_20180725/photos/201703/elephant.jpg);
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  transition: .5s;
+}
+/*
+.imgs_work_elephant a{
+  opacity: 0;
+  color: #ffffff;
+  transition: .5s;
+  font-size: 20px;
+  text-decoration: none;
+  padding-top: 300px;
+}*/
+
+.imgs_work_elephant:hover{
+  height: 800px;
+  transition: .5s;
+}
+/*
+.imgs_work_elephant:hover a{
+  opacity: 1;
+  font-size: 40px;
+  transition: .5s;
+}
+*/
+.imgs_work_tree{
+  background-image: url(images/miam_miam_miam_20180725/photos/201703/tree.jpg);
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  transition: .5s;
+}
+
+.imgs_work_tree:hover{
+  height: 800px;
+  transition: .5s;
+}
+
+.imgs_work_smoke{
+  background-image: url(images/miam_miam_miam_20180725/photos/201703/smoke.jpg);
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  transition: .5s;
+}
+
+.imgs_work_smoke:hover{
+  height: 800px;
+  transition: .5s;
+}
+
+.imgs_work_ball{
+  background-image: url(images/miam_miam_miam_20180725/photos/201703/ball.jpg);
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  transition: .5s;
+}
+
+.imgs_work_ball:hover{
+  height: 800px;
+  transition: .5s;
+}
+
+.arrow{
+  font-size: 20px;
+  color: #323232;
+}
+
+.icons_social{
+  list-style: none;
+}
+
+
+
+.icon_social_facebook{
+  display: inline-block;
+  background-color: #228BE6;
+  width: 50px;
+  height: 50px;
+  margin: 20px 50px;
+  border-radius: 50%;
+  transition: .5s;
+}
+
+.icon_social_facebook:hover{
+  display: inline-block;
+  background-color: #228BE6;
+  margin: 20px 50px;
+  border-radius: 5px;
+  transition: .5s;
+}
+
+.icon_facebook{
+  opacity: 0;
+  color: #ffffff;
+  font-size: 40px;
+  transition: .5s;
+  padding-top: 5px;
+}
+
+.icon_social_facebook:hover .icon_facebook{
+  opacity: 1;
+  color: #ffffff;
+  font-size: 40px;
+  transition: .5s;
+  padding-top: 5px;
+}
+
+
+.icon_social_linkedin{
+  display: inline-block;
+  background-color: #0077B5;
+  width: 50px;
+  height: 50px;
+  margin: 20px 50px;
+  border-radius: 50%;
+  transition: .5s;
+}
+
+.icon_social_linkedin:hover{
+  display: inline-block;
+  background-color: #0077B5;
+  margin: 20px 50px;
+  border-radius: 5px;
+  transition: .5s;
+}
+
+.icon_linkedin{
+  opacity: 0;
+  color: #ffffff;
+  font-size: 40px;
+  transition: .5s;
+  padding-top: 5px;
+}
+
+.icon_social_linkedin:hover .icon_linkedin{
+  opacity: 1;
+  color: #ffffff;
+  font-size: 40px;
+  transition: .5s;
+  padding-top: 5px;
+}
+
+
+
+.icon_social_instagram{
+  display: inline-block;
+  background: linear-gradient(to bottom left, #7A37AB, #EE0719, #F6CB00);
+  width: 50px;
+  height: 50px;
+  margin: 20px 50px;
+  border-radius: 50%;
+  transition: .5s;
+}
+
+.icon_social_instagram:hover{
+  display: inline-block;
+  background-color: #F58B01;
+  margin: 20px 50px;
+  border-radius: 5px;
+  transition: .5s;
+}
+
+.icon_instagram{
+  opacity: 0;
+  color: #ffffff;
+  font-size: 40px;
+  transition: .5s;
+  padding-top: 5px;
+}
+
+.icon_social_instagram:hover .icon_instagram{
+  opacity: 1;
+  color: #ffffff;
+  font-size: 40px;
+  transition: .5s;
+  padding-top: 5px;
+}
+
+.bloc_work{
+  position: relative;
+
+}
+
+.insta_link{
+  font-size: 50px;
+  color: #323232;
+}
